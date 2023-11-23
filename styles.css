@@ -1,0 +1,19 @@
+/* styles.css */
+
+/* CSS styles for chessboard cells */
+#ChessContainer table {
+  border-collapse: collapse; /* Ensures cells don't have spaces between them */
+}
+
+#ChessContainer .cell {
+  width: 50px;
+  height: 50px;
+}
+
+#ChessContainer .whitecell {
+  background-color: #eee;
+}
+
+#ChessContainer .blackcell {
+  background-color: #444;
+}
