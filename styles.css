@@ -11,9 +11,21 @@
 }
 
 #ChessContainer .whitecell {
-  background-color: #eee;
+  background-color: rgb(237, 225, 218);
 }
 
 #ChessContainer .blackcell {
-  background-color: #444;
+  background-color: #4d7b4d;
+}
+
+.rankLabel {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 5px; /* Adjust the padding to your liking */
+}
+
+/* Styles for file labels (letters) */
+.fileLabel {
+  text-align: center;
+  font-weight: bold;
 }
